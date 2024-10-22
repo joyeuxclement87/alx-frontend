@@ -198,11 +198,18 @@ h6 {
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
-.row+.new-row {
+
+.row {
+    position: relative;
+}
+
+.row::after {
     content: "";
     display: table;
     clear: both;
+    margin-top: 0;
 }
+
 .footer {
     padding: var(--footer-padding);
 }
