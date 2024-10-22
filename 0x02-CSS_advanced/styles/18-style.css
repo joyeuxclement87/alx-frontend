@@ -132,17 +132,12 @@ h6 {
     font-weight: var(--font-weight-bold);
 }
 
-.footer {
-    padding: var(--footer-padding);
-}
-
 .navbar-menu {
     float: right;
 }
-
 .nav {
     margin: 0;
-    padding: 0%;
+    padding: 0;
     list-style: none;
     text-align: center;
 }
@@ -163,4 +158,9 @@ h6 {
 
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
+}
+
+
+.footer {
+    padding: var(--footer-padding);
 }
