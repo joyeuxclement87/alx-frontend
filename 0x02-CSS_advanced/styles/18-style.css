@@ -1,4 +1,4 @@
-/* Add universal box-sizing */
+/* Customizing the navbar */
 @import 'normalize.css';
 
 *,
@@ -141,6 +141,7 @@ h6 {
 .navbar-menu {
     float: right;
 }
+
 .nav {
     margin: 0;
     padding: 0;
