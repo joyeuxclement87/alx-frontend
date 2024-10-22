@@ -2,6 +2,7 @@ html {
   scroll-behavior: smooth;
   font-size: 62.5%;
 }
+
 body {
   color: var(--text-color);
   font-family: var(--font-family-base);
@@ -9,16 +10,20 @@ body {
   font-weight: var(--font-weight-regular);
   line-height: var(--line-height-base);
 }
+
 a {
   color: var(--text-color);
   text-decoration: none;
 }
+
 .visually-hidden {
   display: none;
 }
+
 .section-header {
   text-align: var(--section-header-align);
 }
+
 .section-title {
   font-family: var(--font-family-title);
   font-size: var(--font-size-x-large);
@@ -26,15 +31,18 @@ a {
   margin: var(--section-title-margin);
   color: var(--section-title-color);
 }
+
 .section-tagline {
   color: var(--color-primary);
   font-family: var(--font-family-title);
   text-transform: var(--section-tagline-transform);
   font-weight: var(--font-weight-bold);
 }
+
 .card-category {
   color: var(--color-primary);
 }
+
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
@@ -59,6 +67,7 @@ a {
   --section-title-margin: 0;
   --section-title-color: color-black;
 }
+
 h1,
 h2,
 h3,
