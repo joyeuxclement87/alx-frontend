@@ -81,7 +81,12 @@ body {
     line-height: var(--line-height-base);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
 }
@@ -157,7 +162,7 @@ a:active {
     height: 0.2rem;
 }
 
-.nav .nav-item:hover > .nav-link::before{
+.nav .nav-item:hover>.nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
 }
@@ -179,7 +184,8 @@ a:active {
     position: var(--header-logo-link-position);
     top: var(--header-logo-link-top);
     left: var(--header-logo-link-left);
-} 
+}
+
 .card-category {
     color: var(--color-primary);
 }
@@ -349,7 +355,7 @@ ul.row {
     display: block;
 }
 
-.social-link > svg {
+.social-link>svg {
     fill: var(--text-color);
 }
 
