@@ -1,3 +1,41 @@
+/* Adding more styling to the section title */
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+body {
+  color: var(--text-color);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-base);
+}
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+.visually-hidden {
+  display: none;
+}
+.section-header {
+  text-align: var(--section-header-align);
+}
+.section-title {
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-xx-large);
+  font-weight: var(--font-weight-bold);
+  margin: var(--section-title-margin);
+  color: var(--section-title-color);
+}
+.section-tagline {
+  color: var(--color-primary);
+  font-family: var(--font-family-title);
+  text-transform: var(--section-tagline-transform);
+  font-weight: var(--font-weight-bold);
+}
+.card-category {
+  color: var(--color-primary);
+}
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
@@ -21,22 +59,7 @@
   --section-header-align: center;
   --section-tagline-transform: uppercase;
   --section-title-margin: 0;
-  --section-title-color: var(--color-black);
-}
-html {
-  scroll-behavior: smooth;
-  font-size: 62.5%;
-}
-body {
-  font-family: var(--font-family-base);
-  font-size: var(--font-size-medium);
-  font-weight: var(--font-weight-regular);
-  line-height: var(--line-height-base);
-}
-body,
-a {
-  color: var(--text-color);
-}
+  --section-title-color: var(--color-black);}
 h1,
 h2,
 h3,
@@ -45,29 +68,4 @@ h5,
 h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
-}
-a {
-  text-decoration: none;
-}
-.visually-hidden {
-  display: none;
-}
-.card-category,
-.section-tagline {
-  color: var(--color-primary);
-}
-.section-header {
-  text-align: var(--section-header-align);
-}
-.section-tagline {
-  font-family: var(--font-family-title);
-  text-transform: var(--section-tagline-transform);
-  font-weight: var(--font-weight-bold);
-}
-.section-title {
-  font-family: var(--font-family-title);
-  font-size: var(--font-size-xx-large);
-  font-weight: var(--font-weight-bold);
-  margin: var(--section-title-margin);
-  color: var(--section-title-color);
 }
