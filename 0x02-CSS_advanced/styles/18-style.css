@@ -97,13 +97,12 @@ text-decoration: underline;
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
-    --nav-item-font-family: var(--font-family-title);
-    --nav-item-font-weight: var(--font-weight-bold);
-    --nav-item-font-size: var(--font-size-medium);
-    --nav-item-letter-spacing: 4%;
-    --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
-    --nav-item-link-hover: var(--color-primary);
+  --nav-item-font-family: 'Open Sans', sans-serif; /* Define custom font family for nav-item */
+  --nav-item-font-weight: 600; /* Define font boldness for nav-item */
+  --nav-item-font-size: 1.4rem; /* Define font size for nav-item */
+  --nav-item-letter-spacing: 0.1rem; /* Define letter spacing for nav-item */
+  --nav-item-display: inline-block; /* Define display for nav-item */
 }
   h1,
   h2,
