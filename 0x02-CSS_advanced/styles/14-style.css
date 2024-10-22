@@ -1,5 +1,5 @@
 /* Adding more styling to the section title */
-@import '../node_modules/normalize.css/normalize.css';
+@import 'normalize.css';
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
